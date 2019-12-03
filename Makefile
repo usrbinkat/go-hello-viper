@@ -27,9 +27,11 @@ dependencies:
 	go get -u github.com/spf13/viper
 
 
-.PHONY: build-local
-build-local:
-	go install github.com/docktermj/$(PROGRAM_NAME)
+.PHONY: build
+build:
+	@go build ${GO_PACKAGE}
+	@mkdir -p $(TARGET_DIRECTORY)/linux || true
+	@mv $(PROGRAM_NAME) $(TARGET_DIRECTORY)/linux	
 
 
 # -----------------------------------------------------------------------------
