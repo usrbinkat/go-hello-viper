@@ -83,10 +83,10 @@ func LoadConfig(args map[string]interface{}) {
 	// Load OS Environment Variables
 	// ------------------------------------------------------------------------
 
-	viper.BindEnv(osKey, "GOHELLOVIPER_OS_KEY")
-	viper.BindEnv(osKeyOnly, "GOHELLOVIPER_OS_KEY_ONLY")
-	viper.BindEnv(flagKey, "GOHELLOVIPER_FLAG_KEY")
-	viper.BindEnv(setKey, "GOHELLOVIPER_SET_KEY")
+	viper.BindEnv(osKey, "GO_HELLO_VIPER_OS_KEY")
+	viper.BindEnv(osKeyOnly, "GO_HELLO_VIPER_OS_KEY_ONLY")
+	viper.BindEnv(flagKey, "GO_HELLO_VIPER_FLAG_KEY")
+	viper.BindEnv(setKey, "GO_HELLO_VIPER_SET_KEY")
 
 	// ------------------------------------------------------------------------
 	// Load commandline options

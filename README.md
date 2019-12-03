@@ -106,10 +106,10 @@ The following software programs need to be installed:
    Example:
 
     ```console
-    export GOHELLOVIPER_OS_KEY="From OS"
-    export GOHELLOVIPER_OS_KEY_ONLY="From OS"
-    export GOHELLOVIPER_FLAG_KEY="From OS"
-    export GOHELLOVIPER_SET_KEY="From OS"
+    export GO_HELLO_VIPER_OS_KEY="From OS"
+    export GO_HELLO_VIPER_OS_KEY_ONLY="From OS"
+    export GO_HELLO_VIPER_FLAG_KEY="From OS"
+    export GO_HELLO_VIPER_SET_KEY="From OS"
 
     ${GIT_REPOSITORY_DIR}/target/linux/go-hello-viper \
       --flagKey "From command option" \
