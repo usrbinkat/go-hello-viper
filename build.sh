@@ -12,10 +12,10 @@ rm -rf /root/gohi 2>/dev/null
 mkdir -p /tmp/bin
 
 plugins="
-	"github.com/docktermj/go-hello-viper/configuration" \
-	"github.com/docktermj/go-hello-viper/etc" \
-	"github.com/docopt/docopt-go" \
+	"github.com/usrbinkat/go-hello-viper/configuration" \
+	"github.com/usrbinkat/go-hello-viper/etc" \
 "
+#    "github.com/docopt/docopt-go" \
 for i in ${plugins}; do
   ${goCmd} get -u ${i};
 done
