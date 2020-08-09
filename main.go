@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/docktermj/go-hello-viper/configuration"
-	"github.com/docktermj/go-hello-viper/etc"
+	"github.com/usrbinkat/go-hello-viper/configuration"
+	"github.com/usrbinkat/go-hello-viper/etc"
 	"github.com/docopt/docopt-go"
 )
 
